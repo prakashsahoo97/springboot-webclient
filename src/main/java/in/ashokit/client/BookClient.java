@@ -30,7 +30,7 @@ public class BookClient {
 	}
 	
 	public void invokeGetAllBook() {
-		String url="http://localhost:8080/books";
+		String url="http://localhost:8080/books/xyz";
 		
 		List<Book> list =Arrays.asList( client.get()
 												.uri(url)
